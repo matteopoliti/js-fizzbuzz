@@ -1,0 +1,44 @@
+.my_container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fizzbuzz{
+    background-color: rgb(203, 54, 193);
+    width: 10%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.fizz{
+    background-color:rgb(96, 96, 189);
+    width: 10%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.buzz{
+    background-color: rgb(105, 47, 47);
+    width: 10%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.numero{
+    background-color: rgb(32, 116, 32);
+    width: 10%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

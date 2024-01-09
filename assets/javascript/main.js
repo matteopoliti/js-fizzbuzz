@@ -3,21 +3,25 @@
 // i numeri che sono mutlipli sia di 3 che di 5 devono avere la scitta "FizzBuzz"
 
 
-const ul = document.querySelector("ul.list")
+const ul = document.querySelector("div.list")
 
 for(let i = 1; i <= 100; i++){
 
+    const element = document.createElement("span");
+
     if(i % 3 === 0 && i % 5 === 0){
-        const element = "<li>FizzBuzz</li>"
-        ul.innerHTML += element
+       element.textContent = "FizzBuzz"
+       element.classList.add("fizzbuzz");
     }else if((i % 3) === 0){
-        const element = "<li>Fizz</li>"
-        ul.innerHTML += element
+       element.textContent = "Fizz"
+       element.classList.add("fizz");
     }else if (i % 5 === 0){
-        const element = "<li>Buzz</li>"
-        ul.innerHTML += element
+       element.textContent = "Buzz"
+       element.classList.add("buzz");
     }else{
-        const element = `<li> ${i} </li>`
-        ul.innerHTML += element
+       element.textContent = ` ${i} `
+       element.classList.add("numero");
     }
+
+    ul.appendChild(element)
 }
